@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+  PEFileProcessor.cpp
+C:\Users\admin\Desktop\libpe\libpe\PEFileProcessor.cpp(7,6): warning C4273: 'ProcessPEFile': inconsistent dll linkage
+C:\Users\admin\Desktop\libpe\libpe\PEFileProcessor.h(17,30): message : see previous definition of 'ProcessPEFile'
+  Generating Code...
+     Creating library C:\Users\admin\Desktop\libpe\x64\Debug\libpe.lib and object C:\Users\admin\Desktop\libpe\x64\Debug\libpe.exp
+  libpe.vcxproj -> C:\Users\admin\Desktop\libpe\x64\Debug\libpe.dll
