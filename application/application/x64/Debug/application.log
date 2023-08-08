@@ -1,3 +1,2 @@
-﻿  0 File(s) copied
-  application.cpp
-  application.vcxproj -> C:\Users\admin\Desktop\task\application\x64\Debug\application.exe
+﻿  application.cpp
+LINK : fatal error LNK1104: cannot open file 'libpe.lib'

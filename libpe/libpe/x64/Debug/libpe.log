@@ -1,8 +1,6 @@
 ﻿  pch.cpp
   dllmain.cpp
   PEFileProcessor.cpp
-C:\Users\admin\Desktop\libpe\libpe\PEFileProcessor.cpp(7,6): warning C4273: 'ProcessPEFile': inconsistent dll linkage
-C:\Users\admin\Desktop\libpe\libpe\PEFileProcessor.h(17,30): message : see previous definition of 'ProcessPEFile'
+C:\Users\admin\Desktop\task\libpe\libpe\PEFileProcessor.cpp(9,29): warning C4101: 'dump_mode': unreferenced local variable
   Generating Code...
-     Creating library C:\Users\admin\Desktop\libpe\x64\Debug\libpe.lib and object C:\Users\admin\Desktop\libpe\x64\Debug\libpe.exp
-  libpe.vcxproj -> C:\Users\admin\Desktop\libpe\x64\Debug\libpe.dll
+LINK : fatal error LNK1104: cannot open file 'libpeconv.lib'
