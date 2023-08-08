@@ -4,13 +4,14 @@
 // Link with the DLL (header file should match the DLL's export declaration)
 #include "PEFileProcessor.h"
 
+
 int main(int argc, char* argv[])
 {
     if (argc < 2) {
         std::cout << "Args: <path to the exe>" << std::endl;
         return 0;
     }
-    LPCSTR pe_path = argv[1];
+    LPCSTR pe_path = "c:\\Users\\admin\\Desktop\\Projects\\Casino\\build\\Release\\casino.exe";
 
     // manually load the PE file using libPeConv:
     size_t v_size = 0;
@@ -28,25 +29,24 @@ int main(int argc, char* argv[])
         return -1;
     }
 
-    // if the loaded PE needs to access resources, you may need to connect it to the PEB:
-    peconv::set_main_module_in_peb((HMODULE)my_pe);
 
     // load delayed imports (if present):
     const ULONGLONG load_base = (ULONGLONG)my_pe;
     peconv::load_delayed_imports(my_pe, load_base);
 
-    // if needed, you can run TLS callbacks before the Entry Point:
-    peconv::run_tls_callbacks(my_pe, v_size);
+    //// if needed, you can run TLS callbacks before the Entry Point:
+    //peconv::run_tls_callbacks(my_pe, v_size);
 
-    //calculate the Entry Point of the manually loaded module
-    DWORD ep_rva = peconv::get_entry_point_rva(my_pe);
-    if (!ep_rva) {
-        return -2;
-    }
-    ULONG_PTR ep_va = ep_rva + (ULONG_PTR)my_pe;
-    //assuming that the payload is an EXE file (not DLL) this will be the simplest prototype of the main:
-    int (*new_main)() = (int(*)())ep_va;
+    ////calculate the Entry Point of the manually loaded module
+    //DWORD ep_rva = peconv::get_entry_point_rva(my_pe);
+    //if (!ep_rva) {
+    //    return -2;
+    //}
+    //ULONG_PTR ep_va = ep_rva + (ULONG_PTR)my_pe;
+    ////assuming that the payload is an EXE file (not DLL) this will be the simplest prototype of the main:
+    //int (*new_main)() = (int(*)())ep_va;
 
-    //call the Entry Point of the manually loaded PE:
-    return new_main();
+    ////call the Entry Point of the manually loaded PE:
+    //return new_main();
+    std::cout << load_base << std::endl;
 }

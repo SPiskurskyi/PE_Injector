@@ -1,6 +1,6 @@
 ﻿  pch.cpp
   dllmain.cpp
   PEFileProcessor.cpp
-C:\Users\admin\Desktop\task\libpe\libpe\PEFileProcessor.cpp(9,29): warning C4101: 'dump_mode': unreferenced local variable
+C:\Users\admin\Desktop\task\libpe\libpe\PEFileProcessor.cpp(10,29): warning C4101: 'dump_mode': unreferenced local variable
   Generating Code...
-LINK : fatal error LNK1104: cannot open file 'libpeconv.lib'
+  libpe.vcxproj -> C:\Users\admin\Desktop\task\libpe\x64\Debug\libpe.dll

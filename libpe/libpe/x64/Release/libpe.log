@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  dllmain.cpp
+  PEFileProcessor.cpp
+C:\Users\admin\Desktop\task\libpe\libpe\PEFileProcessor.cpp(10,29): warning C4101: 'dump_mode': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  libpe.vcxproj -> C:\Users\admin\Desktop\task\libpe\x64\Release\libpe.dll
+  0 File(s) copied
