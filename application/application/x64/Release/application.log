@@ -1,6 +1,2 @@
-﻿  Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  application.vcxproj -> C:\Users\admin\Desktop\task\application\x64\Release\application.exe
+﻿  application.vcxproj -> C:\Users\admin\Desktop\task\application\x64\Release\application.exe
   0 File(s) copied
