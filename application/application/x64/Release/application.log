@@ -1,2 +1,8 @@
-﻿  application.vcxproj -> C:\Users\admin\Desktop\task\application\x64\Release\application.exe
-  0 File(s) copied
+﻿  Generating code
+  0 of 218 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  application.vcxproj -> C:\Users\admin\Desktop\task\application\x64\Release\application.exe
+  ..\..\libpe\x64\Release\libpe.dll
+  1 File(s) copied

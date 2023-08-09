@@ -1,9 +1,9 @@
 ﻿  pch.cpp
   dllmain.cpp
-  imp_list.cpp
+  implementation.cpp
      Creating library C:\Users\admin\Desktop\task\libpe\Win32\Release\libpe.lib and object C:\Users\admin\Desktop\task\libpe\Win32\Release\libpe.exp
   Generating code
   Previous IPDB not found, fall back to full compilation.
-  All 318 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 321 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   libpe.vcxproj -> C:\Users\admin\Desktop\task\libpe\Win32\Release\libpe.dll

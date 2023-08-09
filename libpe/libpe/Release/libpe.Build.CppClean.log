@@ -3,12 +3,12 @@ c:\users\admin\desktop\task\libpe\libpe\release\vc143.pdb
 c:\users\admin\desktop\task\libpe\libpe\release\pch.obj
 c:\users\admin\desktop\task\libpe\libpe\release\imp_list.obj
 c:\users\admin\desktop\task\libpe\libpe\release\dllmain.obj
-c:\users\admin\desktop\task\libpe\release\libpe.dll
+c:\users\admin\desktop\task\libpe\win32\release\libpe.dll
 c:\users\admin\desktop\task\libpe\libpe\release\libpe.ipdb
 c:\users\admin\desktop\task\libpe\libpe\release\libpe.iobj
-c:\users\admin\desktop\task\libpe\release\libpe.pdb
-c:\users\admin\desktop\task\libpe\release\libpe.lib
-c:\users\admin\desktop\task\libpe\release\libpe.exp
+c:\users\admin\desktop\task\libpe\win32\release\libpe.pdb
+c:\users\admin\desktop\task\libpe\win32\release\libpe.lib
+c:\users\admin\desktop\task\libpe\win32\release\libpe.exp
 c:\users\admin\desktop\task\libpe\libpe\release\libpe.tlog\cl.command.1.tlog
 c:\users\admin\desktop\task\libpe\libpe\release\libpe.tlog\cl.read.1.tlog
 c:\users\admin\desktop\task\libpe\libpe\release\libpe.tlog\cl.write.1.tlog
