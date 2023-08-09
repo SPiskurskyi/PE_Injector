@@ -1,0 +1,7 @@
+﻿     Creating library C:\Users\admin\Desktop\task\libpe\Release\libpe.lib and object C:\Users\admin\Desktop\task\libpe\Release\libpe.exp
+  Generating code
+  0 of 318 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  libpe.vcxproj -> C:\Users\admin\Desktop\task\libpe\Release\libpe.dll
