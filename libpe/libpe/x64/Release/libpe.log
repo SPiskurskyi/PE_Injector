@@ -1,4 +1,5 @@
-﻿  pch.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : The process cannot access the file 'c:\users\admin\desktop\task\libpe\x64\release\libpe.pdb' because it is being used by another process.
+  pch.cpp
   dllmain.cpp
   implementation.cpp
      Creating library C:\Users\admin\Desktop\task\libpe\x64\Release\libpe.lib and object C:\Users\admin\Desktop\task\libpe\x64\Release\libpe.exp

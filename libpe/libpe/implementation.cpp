@@ -90,5 +90,6 @@ void LIBPE_API libpe::printer()
     {
         std::cout << "terminate " << std::endl;
     }
+    OutputDebugString("Function from DLL loaded :)\n");
 }
 
